@@ -1,6 +1,6 @@
-MOD = 10**9+7
-T = int(input())
-for _ in range (T) : 
-    N,K = map (int,input().split())
-    ket_qua = pow(N,K,MOD)
-    print (ket_qua)
+n = int(input())
+tong = 0 
+for i in range (2,n+1,2) :
+     tong += i
+print (tong)
+
